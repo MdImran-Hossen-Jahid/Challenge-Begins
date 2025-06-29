@@ -8,6 +8,47 @@
     margin: 0;
     padding: 0;
 }
+/* shared style start*/
+.sub-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.section-style{
+    width: 1050px;
+    text-align: center;
+    margin: auto;
+    background-color: #0D132105;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.specific-goal-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555a64;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.goal-button{
+    color: rgb(86,90,100);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid rgb(98,100,107);
+    background-color: #fff;
+}
+.goal-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: white;
+}
+.text-area{
+    width: 420px;
+    background-color: white;
+    text-align: start;
+}
+/* shared style end */
 .nav-items{
     display: flex;
     justify-content: space-between;
@@ -36,6 +77,7 @@
     text-align: center;
     background-image: url(./assets/Hero-bg.png);
     background-repeat: no-repeat;
+    margin-bottom: 74px;
 }
 .banner-item>img{
     padding-top: 26px;
@@ -61,4 +103,18 @@
     background-color: #0D1321;
     border-radius: 8px;
     margin-bottom: 45px;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.dream-description{
+    width: 750px;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555963;
 }
