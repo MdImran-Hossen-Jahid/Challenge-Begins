@@ -14,14 +14,6 @@
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
 }
-.learning-purpose-item{
-    width: 1050px;
-    text-align: center;
-    margin: auto;
-    background-color: #0D132105;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
 .specific-goal-description{
     font-size: 16px;
     font-weight: 400;
@@ -47,6 +39,35 @@
     width: 420px;
     background-color: white;
     text-align: start;
+}
+.section-common-title{
+    text-align: center;    
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.section-common-description{
+    text-align: center;
+    color: #62646b;
+    font-size: 16px;
+    font-weight: 400;
+}
+.skills-item{
+    text-align: start;
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13,19,33);
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.skill-description{
+    color: #62646b;
+    margin-bottom: 24px;
 }
 /* shared style end */
 .nav-items{
@@ -104,6 +125,14 @@
     border-radius: 8px;
     margin-bottom: 45px;
 }
+.learning-purpose-item{
+    width: 1050px;
+    text-align: center;
+    margin: auto;
+    background-color: #0D132105;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .section-title{
     font-size: 32px;
     font-weight: 800;
@@ -120,21 +149,27 @@
 }
 .inspiration-item{
     width: 1050px;
-    text-align: center;
     margin: auto;
     background-color: white;
     margin-top: 90px;
     margin-bottom: 151px;
 }
-.inspiration-title{
-    font-size: 32px;
-    font-weight: 800;
-    color: #0D1321;
+#my-targeted-skills-item{
+    width: 1050px;
+     text-align: center;
+      margin: auto;
 }
-.inspiration-description{
-    color: #62646b;
+.targeted-skills{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.learn-button-item{
+    color: rgb(13,19,33);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
+    border: none;
+    text-decoration:underline;
 }
 /* .jhankar-mahbub-vaiya{
     background: url(https://www.youtube.com/watch?v=DGHn2uOAVCE);
