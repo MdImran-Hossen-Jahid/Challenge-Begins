@@ -51,6 +51,10 @@
     color: #62646b;
     font-size: 16px;
     font-weight: 400;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
 .skills-item{
     text-align: start;
@@ -68,6 +72,14 @@
 .skill-description{
     color: #62646b;
     margin-bottom: 24px;
+}
+.learn-button-item{
+    color: rgb(13,19,33);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    text-decoration:underline;
+    background-color: #fff;
 }
 /* shared style end */
 .nav-items{
@@ -164,13 +176,27 @@
     justify-content: space-evenly;
     gap: 24px;
 }
-.learn-button-item{
-    color: rgb(13,19,33);
-    font-size: 16px;
-    font-weight: 700;
-    border: none;
-    text-decoration:underline;
+.next-targeted-skills-item{
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 49px;
 }
-/* .jhankar-mahbub-vaiya{
-    background: url(https://www.youtube.com/watch?v=DGHn2uOAVCE);
-} */
+.next-targeted-skills{
+    border: 1px solid #cfd0d3;
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+}
+.next-skill-title{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+.next-skill-description{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(86,90,100);
+}
