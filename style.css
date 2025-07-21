@@ -122,6 +122,10 @@
     font-weight: 800;
     color: #0D1321;
 }
+.banner-description-parent{
+    width: 900px;
+    margin: auto;
+}
 .banner-description{
     font-size: 16px;
     font-weight: 400;
@@ -251,6 +255,9 @@ background-color: rgb(248,248,248);
 /* responsive design for mobile device */
 
 @media screen and (max-width:576px) {
+    .banner-item{
+        margin-bottom: 30px;
+    }
     nav{
         position: relative;
         position: fixed;
@@ -282,4 +289,11 @@ padding-bottom: 15px;
     .banner-item>h1{
         font-size: 17px;
     }
+    .banner-description-parent{
+    width: auto;
+    text-align: center;
+}
+.contact-button{
+    margin-bottom: 30px;
+}
 }
