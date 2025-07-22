@@ -298,4 +298,14 @@ padding-bottom: 15px;
     font-size: 17px;
     padding: 15px 13px;
 }
+.section-title{
+    font-size:25px;
+    margin-bottom: 15px;
+}
+.dream-description{
+    width:auto;
+}
+.learning-purpose-item{
+    width: 80%;
+}
 }
