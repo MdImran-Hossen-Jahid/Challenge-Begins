@@ -305,7 +305,11 @@ padding-bottom: 15px;
 .dream-description{
     width:auto;
 }
-.learning-purpose-item{
-    width: 80%;
+.goal-item{
+    flex-direction: column;
+    padding: 10px;
+}
+.text-area{
+    width: auto;
 }
 }
