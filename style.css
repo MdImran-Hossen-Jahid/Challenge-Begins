@@ -236,6 +236,8 @@ padding: 32px;
     padding-top: 64px;
 }
 .support-section-description{
+    width: 606px;
+    text-align: center;
     font-size: 16px;
     font-weight: 400;
     color: rgb(183,182,181);
@@ -417,5 +419,12 @@ padding-top: 25px;
 .feedback-item{
     padding: 18px 0 18px 12px;
 }
-
+.support-item{
+    width: auto;
+    height: auto;
+}
+.support-section-description{
+    width: auto;
+    padding-left: 4px;
+}
 }
