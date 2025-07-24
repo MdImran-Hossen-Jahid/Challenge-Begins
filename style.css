@@ -187,6 +187,7 @@ padding: 32px;
     width: 1050px;
      text-align: center;
       margin: auto;
+      margin-bottom: 111px;
 }
 .targeted-skills{
     display: flex;
@@ -394,7 +395,12 @@ margin-bottom: 16px;
     width:auto;
 }
 .next-targeted-skills{
-    padding:30px;
+    padding:15px;
+    margin: 15px;
+    flex-direction: column;
+}
+#my-targeted-skills-item{
+margin-bottom: 60px;
 }
 
 }
