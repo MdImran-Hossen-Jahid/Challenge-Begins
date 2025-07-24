@@ -365,4 +365,10 @@ margin-bottom: 16px;
 margin-top: 15px;
 margin-bottom: 30px;
 }
+.video-item {
+        width: 90%;
+        padding: 10px;
+        position: relative;
+        left: 7px;
+}
 }
