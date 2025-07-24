@@ -177,6 +177,12 @@ background-color: #fafafb;
     margin-top: 90px;
     margin-bottom: 151px;
 }
+.video-item{
+width: 985px;
+border: 1px solid #cfd0d3;
+border-radius: 16px;
+padding: 32px;
+}
 #my-targeted-skills-item{
     width: 1050px;
      text-align: center;
@@ -309,7 +315,7 @@ padding-bottom: 15px;
 }
 .dream-description{
     width:auto;
-    text-align: center;
+   text-align: start;
 }
 .goal-item{
     width: 80%;
@@ -343,5 +349,20 @@ margin-bottom: 16px;
     text-align: start;
     margin: 0 auto;
     padding-top: 30px;
+}
+.inspiration-item{
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.section-common-title{
+    font-size: 25px;
+}
+.section-common-description{
+    text-align: start;
+    padding-left:10px;
+    padding-right: 10px;
+margin-top: 15px;
+margin-bottom: 30px;
 }
 }
