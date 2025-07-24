@@ -390,5 +390,11 @@ margin-bottom: 16px;
 .skill-title{
     margin-top:10px;
 }
+.next-targeted-skills-item{
+    width:auto;
+}
+.next-targeted-skills{
+    padding:30px;
+}
 
 }
