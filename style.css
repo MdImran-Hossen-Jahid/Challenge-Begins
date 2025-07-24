@@ -151,6 +151,11 @@
     padding-bottom: 80px;
     border-radius: 16px;
 }
+.div-item{
+margin-right:97px;
+margin-left:97px;
+background-color: #fafafb;
+}
 .section-title{
     font-size: 32px;
     font-weight: 800;
@@ -304,15 +309,39 @@ padding-bottom: 15px;
 }
 .dream-description{
     width:auto;
+    text-align: start;
 }
 .goal-item{
+    width: 80%;
     flex-direction: column;
-    padding: 10px;
+    padding: 15px;
+    margin: auto;
 }
 .text-area{
     width: auto;
 }
+.sub-title{
+    font-size:20px;
+}
 .first-image-item{
 margin-top: 20px;
+}
+.specific-goal-description {
+margin-top: 16px;
+margin-bottom: 16px;
+}
+.goal-button{
+    font-size: 16px;
+    padding: 9px 9px;
+}
+.div-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.learning-purpose-item{
+    width: auto;
+    text-align: start;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 }
