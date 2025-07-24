@@ -359,11 +359,11 @@ margin-bottom: 16px;
     font-size: 25px;
 }
 .section-common-description{
-    text-align: start;
+    text-align: center;
     padding-left:10px;
     padding-right: 10px;
-margin-top: 15px;
-margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 .video-item {
         width: 90%;
@@ -381,10 +381,14 @@ margin-bottom: 30px;
 }
 .skills-item{
     padding: 20px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
+}
+.skills-item:hover{
+    border: 1px solid khaki;
 }
 .skill-title{
     margin-top:10px;
 }
+
 }
