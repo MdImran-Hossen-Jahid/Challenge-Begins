@@ -412,12 +412,16 @@ margin-bottom: 16px;
 #my-targeted-skills-item{
 margin-bottom: 60px;
 }
+.support-item{
+    border-radius: 5px;
+}
 .support-section-title {
 font-size: 20px;
 padding-top: 25px;
 }
 .feedback-item{
-    padding: 18px 0 18px 12px;
+    width: 80%;
+    padding: 18px 10px;
 }
 .support-item{
     width: auto;
@@ -426,5 +430,8 @@ padding-top: 25px;
 .support-section-description{
     width: auto;
     padding-left: 4px;
+}
+.submit-item{
+    margin-top: 10px;
 }
 }
