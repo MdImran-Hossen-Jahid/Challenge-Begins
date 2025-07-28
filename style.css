@@ -278,20 +278,16 @@ background-color: rgb(248,248,248);
 
 @media screen and (max-width:576px) {
     .banner-item{
-        margin-bottom: 15px;
-    }
-    nav{
-        position: relative;
-        position: fixed;
+        margin-bottom: 30px;
     }
     .nav-items{
         justify-content: flex-start;
-        gap: 40px;
+        gap: 82px;
     }
     .nick-name{
     margin-top: 38px;
     margin-bottom: 15px;
-    margin-left: 12px;
+    margin-left: 15px;
     font-size: 17px;
     }
     .download-resume-item{
@@ -305,8 +301,8 @@ background-color: rgb(248,248,248);
         background-color: skyblue;
     }
     .banner-item>img{
-padding-top: 15px;
-padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     }
     .banner-item>h1{
         font-size: 17px;
@@ -360,11 +356,12 @@ margin-bottom: 16px;
     text-align: start;
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .inspiration-item{
     width: auto;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .section-common-title{
     font-size: 25px;
@@ -403,6 +400,7 @@ margin-bottom: 16px;
 }
 .next-targeted-skills-item{
     width:auto;
+    margin-bottom: 30px;
 }
 .next-targeted-skills{
     padding:15px;
@@ -410,10 +408,10 @@ margin-bottom: 16px;
     flex-direction: column;
 }
 #my-targeted-skills-item{
-margin-bottom: 60px;
+margin-bottom: 30px;
 }
 .support-item{
-    border-radius: 5px;
+    border-radius: 0;
 }
 .support-section-title {
 font-size: 20px;
@@ -433,5 +431,20 @@ padding-top: 25px;
 }
 .submit-item{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
+.footer-items{
+    width: auto;
+    flex-direction: column;
+    gap: 16px;
+    margin-top:30px;
+}
+.footer-text-item{
+    font-size: 17px;
+    text-align: center;
+}
+.social-media-icon-parent{
+text-align: center;
+}
+
 }
